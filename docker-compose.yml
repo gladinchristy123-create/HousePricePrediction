@@ -1,0 +1,10 @@
+
+services:
+  house-price-predictor:
+    build: .
+    container_name: house-price-predictor
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
