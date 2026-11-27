@@ -87,7 +87,7 @@ for name, model in models.items():
     with mlflow.start_run(run_name=name):
 
         # Set displayed run user
-        mlflow.set_tag("mlflow.user", "Ancy")
+        mlflow.set_tag("mlflow.user", "Gladin")
 
         print(f"\nTraining {name}...")
 
